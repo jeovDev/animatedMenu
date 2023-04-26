@@ -1,0 +1,12 @@
+C:\Users\Acer\source\repos\animatedMenu\animatedMenu\bin\Debug\animatedMenu.exe.config
+C:\Users\Acer\source\repos\animatedMenu\animatedMenu\bin\Debug\animatedMenu.exe
+C:\Users\Acer\source\repos\animatedMenu\animatedMenu\bin\Debug\animatedMenu.pdb
+C:\Users\Acer\source\repos\animatedMenu\animatedMenu\bin\Debug\ReaLTaiizor.dll
+C:\Users\Acer\source\repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.Form1.resources
+C:\Users\Acer\source\repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.Properties.Resources.resources
+C:\Users\Acer\source\repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.csproj.GenerateResource.cache
+C:\Users\Acer\source\repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.csproj.CopyComplete
+C:\Users\Acer\source\repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.exe
+C:\Users\Acer\source\repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.pdb
