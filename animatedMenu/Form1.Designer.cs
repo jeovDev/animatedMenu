@@ -29,6 +29,7 @@ namespace animatedMenu
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.menuLogout = new System.Windows.Forms.Label();
@@ -39,6 +40,8 @@ namespace animatedMenu
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.metroControlBox1 = new ReaLTaiizor.Controls.MetroControlBox();
+            this.menuTimer = new System.Windows.Forms.Timer(this.components);
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -64,7 +67,7 @@ namespace animatedMenu
             this.menuLogout.ForeColor = System.Drawing.Color.White;
             this.menuLogout.Image = ((System.Drawing.Image)(resources.GetObject("menuLogout.Image")));
             this.menuLogout.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.menuLogout.Location = new System.Drawing.Point(315, 25);
+            this.menuLogout.Location = new System.Drawing.Point(312, 0);
             this.menuLogout.Name = "menuLogout";
             this.menuLogout.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.menuLogout.Size = new System.Drawing.Size(74, 60);
@@ -79,7 +82,7 @@ namespace animatedMenu
             this.menuSettings.ForeColor = System.Drawing.Color.White;
             this.menuSettings.Image = ((System.Drawing.Image)(resources.GetObject("menuSettings.Image")));
             this.menuSettings.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.menuSettings.Location = new System.Drawing.Point(241, 25);
+            this.menuSettings.Location = new System.Drawing.Point(238, 0);
             this.menuSettings.Name = "menuSettings";
             this.menuSettings.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.menuSettings.Size = new System.Drawing.Size(74, 60);
@@ -94,7 +97,7 @@ namespace animatedMenu
             this.menuHome.ForeColor = System.Drawing.Color.White;
             this.menuHome.Image = ((System.Drawing.Image)(resources.GetObject("menuHome.Image")));
             this.menuHome.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.menuHome.Location = new System.Drawing.Point(93, 25);
+            this.menuHome.Location = new System.Drawing.Point(90, 0);
             this.menuHome.Name = "menuHome";
             this.menuHome.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.menuHome.Size = new System.Drawing.Size(74, 60);
@@ -109,7 +112,7 @@ namespace animatedMenu
             this.menuAbout.ForeColor = System.Drawing.Color.White;
             this.menuAbout.Image = ((System.Drawing.Image)(resources.GetObject("menuAbout.Image")));
             this.menuAbout.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.menuAbout.Location = new System.Drawing.Point(167, 25);
+            this.menuAbout.Location = new System.Drawing.Point(164, 0);
             this.menuAbout.Name = "menuAbout";
             this.menuAbout.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.menuAbout.Size = new System.Drawing.Size(74, 60);
@@ -124,7 +127,7 @@ namespace animatedMenu
             this.menuDashboard.ForeColor = System.Drawing.Color.White;
             this.menuDashboard.Image = ((System.Drawing.Image)(resources.GetObject("menuDashboard.Image")));
             this.menuDashboard.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.menuDashboard.Location = new System.Drawing.Point(19, 25);
+            this.menuDashboard.Location = new System.Drawing.Point(16, 0);
             this.menuDashboard.Name = "menuDashboard";
             this.menuDashboard.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
             this.menuDashboard.Size = new System.Drawing.Size(74, 60);
@@ -180,6 +183,12 @@ namespace animatedMenu
             this.metroControlBox1.ThemeAuthor = "Taiizor";
             this.metroControlBox1.ThemeName = "MetroLite";
             // 
+            // menuTimer
+            // 
+            this.menuTimer.Enabled = true;
+            this.menuTimer.Interval = 10;
+            this.menuTimer.Tick += new System.EventHandler(this.menuTimer_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -210,6 +219,8 @@ namespace animatedMenu
         private System.Windows.Forms.Label menuDashboard;
         private System.Windows.Forms.Panel panel2;
         private ReaLTaiizor.Controls.MetroControlBox metroControlBox1;
+        private System.Windows.Forms.Timer menuTimer;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

@@ -10,3 +10,14 @@ C:\Users\Acer\source\repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.cspr
 C:\Users\Acer\source\repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.csproj.CopyComplete
 C:\Users\Acer\source\repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.exe
 C:\Users\Acer\source\repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.pdb
+C:\Users\jcl\Source\Repos\animatedMenu\animatedMenu\bin\Debug\animatedMenu.exe.config
+C:\Users\jcl\Source\Repos\animatedMenu\animatedMenu\bin\Debug\animatedMenu.exe
+C:\Users\jcl\Source\Repos\animatedMenu\animatedMenu\bin\Debug\animatedMenu.pdb
+C:\Users\jcl\Source\Repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.csproj.AssemblyReference.cache
+C:\Users\jcl\Source\Repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.Form1.resources
+C:\Users\jcl\Source\Repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.Properties.Resources.resources
+C:\Users\jcl\Source\Repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.csproj.GenerateResource.cache
+C:\Users\jcl\Source\Repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.csproj.CoreCompileInputs.cache
+C:\Users\jcl\Source\Repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.csproj.CopyComplete
+C:\Users\jcl\Source\Repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.exe
+C:\Users\jcl\Source\Repos\animatedMenu\animatedMenu\obj\Debug\animatedMenu.pdb
